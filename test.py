@@ -18,8 +18,8 @@ users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
 #     if values == 'inactive':
 #         del users[keys]
     
-d = max(map(len, users.items()))
-for x in users:
-    print(x.rjust(d),':',users[x])
+# d = max(map(len, users.items()))
+# for x in users:
+#     print(x.rjust(d),':',users[x])
 
-# 同步测试
+# 更改测试结果
